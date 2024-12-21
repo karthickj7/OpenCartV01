@@ -5,6 +5,8 @@ import java.time.Duration;
 import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -13,10 +15,14 @@ import org.testng.annotations.BeforeClass;
 public class BaseClass {
 
 	public WebDriver driver;
-	Properties prop;
+	public Properties prop;
+	public Logger logger;
 
 	@BeforeClass
 	public void setup() throws Exception {
+		
+		logger = LogManager.getLogger(BaseClass.class);
+		
 		FileReader file = new FileReader("./src//test//resources//config.properties");
 		prop = new Properties();
 		prop.load(file);
