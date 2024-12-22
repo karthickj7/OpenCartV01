@@ -9,7 +9,7 @@ import testBase.BaseClass;
 
 public class TC_001_AccountRegistrationTest extends BaseClass {
 
-	@Test(groups = { "master" })
+	@Test(groups = { "master", "sanity" })
 	public void verify_user_registartion() {
 
 		logger.info("**** Starting TC_001_AccountRegistrationTest ****");
@@ -39,14 +39,14 @@ public class TC_001_AccountRegistrationTest extends BaseClass {
 
 			logger.info("**** Validating Error Message****");
 			String message = register.getConfirmationMsg();
-			if (message.equals("Your Account Has Been Created")) {
-				logger.info("---- TC_001_AccountRegistrationTest Passesd ----");
+			if (message.equals("Your Account Has Been Created!")) {
+				logger.info("---- TC_001_AccountRegistrationTest Passed ----");
 				Assert.assertTrue(true);
 			} else {
 				logger.error("---- TC_001_AccountRegistrationTest Failed ----");
 				Assert.fail();
 			}
-			
+
 		} catch (Exception e) {
 			logger.error("---- TC_001_AccountRegistrationTest Failed ----");
 			Assert.fail();

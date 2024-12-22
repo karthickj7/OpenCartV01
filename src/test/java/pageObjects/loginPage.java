@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class loginPage extends BasePage {
+public class LoginPage extends BasePage {
 
-	public loginPage(WebDriver driver) {
+	public LoginPage(WebDriver driver) {
 		super(driver);
 	}
 
@@ -16,7 +16,7 @@ public class loginPage extends BasePage {
 	@FindBy(id="input-password")
 	WebElement txt_password;
 	
-	@FindBy(xpath="//button[text()=\"Login\"]")
+	@FindBy(xpath="//input[@value='Login']")
 	WebElement btn_login;
 	
 	public void setEmail(String email) {
