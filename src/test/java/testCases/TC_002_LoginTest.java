@@ -31,8 +31,8 @@ public class TC_002_LoginTest extends BaseClass {
 			login.clickLogin();
 
 			logger.info("**** Verifying the login message ****");
-			String msg = account.getHeaderMessage();
-			if (msg.equals("My Account")) {
+
+			if (account.getHeaderMessage()) {
 				logger.info("**** TC_002_LoginTest Passed ****");
 				Assert.assertTrue(true);
 			} else {

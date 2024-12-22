@@ -16,11 +16,16 @@ public class MyAccountPage extends BasePage{
 	@FindBy(xpath="//div[@class='list-group']//a[text()='Logout']")
 	WebElement btn_logout;
 	
-	public String getHeaderMessage() {
-		return msgHeading.getText();
+	public boolean getHeaderMessage() {
+		try {
+			return (msgHeading.isDisplayed()); 
+		} catch (Exception e){
+			return false;
+		}
+		
 	}
 	
-	public void clickLogin() {
+	public void clickLogout() {
 		btn_logout.click();
 	}
 

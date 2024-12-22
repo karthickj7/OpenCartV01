@@ -21,7 +21,7 @@ public class BaseClass {
 	public Properties prop;
 	public Logger logger;
 
-	@BeforeClass(groups = { "Sanity", "Master" })
+	@BeforeClass
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String browserName) throws Exception {
 
