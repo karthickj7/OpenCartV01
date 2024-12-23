@@ -12,7 +12,7 @@ public class DataProviders {
 		int rowCount = excelUtils.getRowCount("Login");
 		int columnCount = excelUtils.getCellCount("Login", 1);
 		
-		String loginData[][] = new String[rowCount][columnCount]; 
+		String[][] loginData = new String[rowCount][columnCount];
 		
 		for (int i = 1; i <= rowCount; i++) {
 			for (int j = 0; j <columnCount; j++) {
