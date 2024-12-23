@@ -1,0 +1,268 @@
+2024-12-22 19:38:32 INFO  Utils:112 - [TestNG] Running:
+  E:\Learnings\Testing\Selenium\OpenCartV01\Master.xml
+
+2024-12-22 19:38:35 INFO  BaseClass:15 - **** Starting TC_001_AccountRegistrationTest ****
+2024-12-22 19:38:36 INFO  BaseClass:22 - **** Clicked on MyAccount ****
+2024-12-22 19:38:36 INFO  BaseClass:24 - **** Clicked on Register ****
+2024-12-22 19:38:36 INFO  BaseClass:26 - **** Entering Details ****
+2024-12-22 19:38:38 INFO  BaseClass:37 - **** Clicking Continue****
+2024-12-22 19:38:39 INFO  BaseClass:40 - **** Validating Error Message****
+2024-12-22 19:38:39 INFO  BaseClass:43 - ---- TC_001_AccountRegistrationTest Passed ----
+2024-12-22 19:38:39 INFO  BaseClass:54 - **** Finished TC_001_AccountRegistrationTest ****
+2024-12-22 19:38:42 INFO  BaseClass:17 - **** Starting TC_002_LoginTest ****
+2024-12-22 19:38:42 INFO  BaseClass:22 - **** Clicked on My Account ****
+2024-12-22 19:38:42 INFO  BaseClass:24 - **** Clicked on Login ****
+2024-12-22 19:38:42 INFO  BaseClass:27 - **** Entering login details ****
+2024-12-22 19:38:43 INFO  BaseClass:30 - **** Clicking login ****
+2024-12-22 19:38:44 INFO  BaseClass:33 - **** Verifying the login message ****
+2024-12-22 19:38:44 INFO  BaseClass:36 - **** TC_002_LoginTest Passed ****
+2024-12-22 19:38:44 INFO  BaseClass:46 - **** Finished TC_002_LoginTest ****
+2024-12-22 19:38:48 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 19:38:48 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 19:38:48 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 19:38:49 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 19:38:50 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 19:39:00 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 19:39:00 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 19:39:01 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 19:39:01 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 19:39:01 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 19:39:02 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 19:39:03 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 19:39:13 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 19:39:13 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 19:39:14 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 19:39:14 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 19:39:14 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 19:39:15 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 19:39:16 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 19:39:16 INFO  BaseClass:37 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 19:39:17 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 19:39:18 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 19:39:18 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 19:39:18 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 19:39:18 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 19:39:20 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 19:39:30 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 19:39:30 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 20:23:12 INFO  Utils:112 - [TestNG] Running:
+  E:\Learnings\Testing\Selenium\OpenCartV01\Master.xml
+
+2024-12-22 20:23:15 INFO  BaseClass:15 - **** Starting TC_001_AccountRegistrationTest ****
+2024-12-22 20:23:16 INFO  BaseClass:22 - **** Clicked on MyAccount ****
+2024-12-22 20:23:16 INFO  BaseClass:24 - **** Clicked on Register ****
+2024-12-22 20:23:16 INFO  BaseClass:26 - **** Entering Details ****
+2024-12-22 20:23:18 INFO  BaseClass:37 - **** Clicking Continue****
+2024-12-22 20:23:19 INFO  BaseClass:40 - **** Validating Error Message****
+2024-12-22 20:23:19 INFO  BaseClass:43 - ---- TC_001_AccountRegistrationTest Passed ----
+2024-12-22 20:23:19 INFO  BaseClass:54 - **** Finished TC_001_AccountRegistrationTest ****
+2024-12-22 20:23:22 INFO  BaseClass:17 - **** Starting TC_002_LoginTest ****
+2024-12-22 20:23:22 INFO  BaseClass:22 - **** Clicked on My Account ****
+2024-12-22 20:23:22 INFO  BaseClass:24 - **** Clicked on Login ****
+2024-12-22 20:23:22 INFO  BaseClass:27 - **** Entering login details ****
+2024-12-22 20:23:23 INFO  BaseClass:30 - **** Clicking login ****
+2024-12-22 20:23:24 INFO  BaseClass:33 - **** Verifying the login message ****
+2024-12-22 20:23:24 INFO  BaseClass:36 - **** TC_002_LoginTest Passed ****
+2024-12-22 20:23:24 INFO  BaseClass:46 - **** Finished TC_002_LoginTest ****
+2024-12-22 20:23:28 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 20:23:28 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 20:23:28 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 20:23:29 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 20:23:30 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 20:23:40 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 20:23:40 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 20:23:41 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 20:23:41 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 20:23:41 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 20:23:42 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 20:23:43 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 20:23:53 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 20:23:53 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 20:23:54 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 20:23:54 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 20:23:54 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 20:23:54 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 20:23:56 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 20:23:56 INFO  BaseClass:37 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 20:23:57 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 20:23:58 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 20:23:58 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 20:23:58 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 20:23:58 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 20:24:00 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 20:24:10 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 20:24:10 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 20:52:13 INFO  Utils:112 - [TestNG] Running:
+  E:\Learnings\Testing\Selenium\OpenCartV01\Master.xml
+
+2024-12-22 20:52:15 INFO  BaseClass:15 - **** Starting TC_001_AccountRegistrationTest ****
+2024-12-22 20:52:15 INFO  BaseClass:22 - **** Clicked on MyAccount ****
+2024-12-22 20:52:16 INFO  BaseClass:24 - **** Clicked on Register ****
+2024-12-22 20:52:16 INFO  BaseClass:26 - **** Entering Details ****
+2024-12-22 20:52:16 INFO  BaseClass:37 - **** Clicking Continue****
+2024-12-22 20:52:17 INFO  BaseClass:40 - **** Validating Error Message****
+2024-12-22 20:52:17 INFO  BaseClass:43 - ---- TC_001_AccountRegistrationTest Passed ----
+2024-12-22 20:52:17 INFO  BaseClass:54 - **** Finished TC_001_AccountRegistrationTest ****
+2024-12-22 20:52:19 INFO  BaseClass:17 - **** Starting TC_002_LoginTest ****
+2024-12-22 20:52:19 INFO  BaseClass:22 - **** Clicked on My Account ****
+2024-12-22 20:52:19 INFO  BaseClass:24 - **** Clicked on Login ****
+2024-12-22 20:52:19 INFO  BaseClass:27 - **** Entering login details ****
+2024-12-22 20:52:19 INFO  BaseClass:30 - **** Clicking login ****
+2024-12-22 20:52:20 INFO  BaseClass:33 - **** Verifying the login message ****
+2024-12-22 20:52:20 INFO  BaseClass:36 - **** TC_002_LoginTest Passed ****
+2024-12-22 20:52:20 INFO  BaseClass:46 - **** Finished TC_002_LoginTest ****
+2024-12-22 20:52:22 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 20:52:22 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 20:52:22 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 20:52:23 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 20:52:23 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 20:52:33 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 20:52:33 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 20:52:34 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 20:52:34 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 20:52:34 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 20:52:35 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 20:52:35 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 20:52:45 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 20:52:45 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 20:52:46 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 20:52:46 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 20:52:46 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 20:52:47 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 20:52:47 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 20:52:47 INFO  BaseClass:37 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 20:52:48 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 20:52:49 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 20:52:49 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 20:52:49 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 20:52:49 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 20:52:49 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 20:52:59 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 20:52:59 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 21:58:09 INFO  Utils:112 - [TestNG] Running:
+  E:\Learnings\Testing\Selenium\OpenCartV01\Grouping.xml
+
+2024-12-22 21:58:14 INFO  BaseClass:15 - **** Starting TC_001_AccountRegistrationTest ****
+2024-12-22 21:58:14 INFO  BaseClass:22 - **** Clicked on MyAccount ****
+2024-12-22 21:58:15 INFO  BaseClass:24 - **** Clicked on Register ****
+2024-12-22 21:58:15 INFO  BaseClass:26 - **** Entering Details ****
+2024-12-22 21:58:17 INFO  BaseClass:37 - **** Clicking Continue****
+2024-12-22 21:58:18 INFO  BaseClass:40 - **** Validating Error Message****
+2024-12-22 21:58:18 INFO  BaseClass:43 - ---- TC_001_AccountRegistrationTest Passed ----
+2024-12-22 21:58:18 INFO  BaseClass:54 - **** Finished TC_001_AccountRegistrationTest ****
+2024-12-22 21:58:50 INFO  Utils:112 - [TestNG] Running:
+  E:\Learnings\Testing\Selenium\OpenCartV01\Grouping.xml
+
+2024-12-22 21:58:53 INFO  BaseClass:15 - **** Starting TC_001_AccountRegistrationTest ****
+2024-12-22 21:58:53 INFO  BaseClass:22 - **** Clicked on MyAccount ****
+2024-12-22 21:58:53 INFO  BaseClass:24 - **** Clicked on Register ****
+2024-12-22 21:58:53 INFO  BaseClass:26 - **** Entering Details ****
+2024-12-22 21:58:55 INFO  BaseClass:37 - **** Clicking Continue****
+2024-12-22 21:58:56 INFO  BaseClass:40 - **** Validating Error Message****
+2024-12-22 21:58:56 INFO  BaseClass:43 - ---- TC_001_AccountRegistrationTest Passed ----
+2024-12-22 21:58:56 INFO  BaseClass:54 - **** Finished TC_001_AccountRegistrationTest ****
+2024-12-22 21:58:59 INFO  BaseClass:17 - **** Starting TC_002_LoginTest ****
+2024-12-22 21:58:59 INFO  BaseClass:22 - **** Clicked on My Account ****
+2024-12-22 21:58:59 INFO  BaseClass:24 - **** Clicked on Login ****
+2024-12-22 21:58:59 INFO  BaseClass:27 - **** Entering login details ****
+2024-12-22 21:59:00 INFO  BaseClass:30 - **** Clicking login ****
+2024-12-22 21:59:01 INFO  BaseClass:33 - **** Verifying the login message ****
+2024-12-22 21:59:01 INFO  BaseClass:36 - **** TC_002_LoginTest Passed ****
+2024-12-22 21:59:01 INFO  BaseClass:46 - **** Finished TC_002_LoginTest ****
+2024-12-22 21:59:37 INFO  Utils:112 - [TestNG] Running:
+  E:\Learnings\Testing\Selenium\OpenCartV01\Grouping.xml
+
+2024-12-22 21:59:41 INFO  BaseClass:15 - **** Starting TC_001_AccountRegistrationTest ****
+2024-12-22 21:59:41 INFO  BaseClass:22 - **** Clicked on MyAccount ****
+2024-12-22 21:59:41 INFO  BaseClass:24 - **** Clicked on Register ****
+2024-12-22 21:59:41 INFO  BaseClass:26 - **** Entering Details ****
+2024-12-22 21:59:44 INFO  BaseClass:37 - **** Clicking Continue****
+2024-12-22 21:59:44 INFO  BaseClass:40 - **** Validating Error Message****
+2024-12-22 21:59:44 INFO  BaseClass:43 - ---- TC_001_AccountRegistrationTest Passed ----
+2024-12-22 21:59:44 INFO  BaseClass:54 - **** Finished TC_001_AccountRegistrationTest ****
+2024-12-22 22:00:14 INFO  Utils:112 - [TestNG] Running:
+  E:\Learnings\Testing\Selenium\OpenCartV01\Grouping.xml
+
+2024-12-22 22:00:17 INFO  BaseClass:15 - **** Starting TC_001_AccountRegistrationTest ****
+2024-12-22 22:00:17 INFO  BaseClass:22 - **** Clicked on MyAccount ****
+2024-12-22 22:00:18 INFO  BaseClass:24 - **** Clicked on Register ****
+2024-12-22 22:00:18 INFO  BaseClass:26 - **** Entering Details ****
+2024-12-22 22:00:19 INFO  BaseClass:37 - **** Clicking Continue****
+2024-12-22 22:00:20 INFO  BaseClass:40 - **** Validating Error Message****
+2024-12-22 22:00:20 INFO  BaseClass:43 - ---- TC_001_AccountRegistrationTest Passed ----
+2024-12-22 22:00:20 INFO  BaseClass:54 - **** Finished TC_001_AccountRegistrationTest ****
+2024-12-22 22:00:24 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 22:00:24 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 22:00:24 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 22:00:25 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 22:00:26 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 22:00:36 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 22:00:36 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 22:00:37 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 22:00:37 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 22:00:37 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 22:00:38 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 22:00:39 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 22:00:49 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 22:00:49 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 22:00:50 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 22:00:50 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 22:00:50 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 22:00:50 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 22:00:52 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 22:00:52 INFO  BaseClass:37 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 22:00:52 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 22:00:53 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 22:00:53 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 22:00:53 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 22:00:54 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 22:00:55 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 22:01:05 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 22:01:05 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 22:21:19 INFO  Utils:112 - [TestNG] Running:
+  E:\Learnings\Testing\Selenium\OpenCartV01\Master.xml
+
+2024-12-22 22:21:23 INFO  BaseClass:15 - **** Starting TC_001_AccountRegistrationTest ****
+2024-12-22 22:21:23 INFO  BaseClass:22 - **** Clicked on MyAccount ****
+2024-12-22 22:21:23 INFO  BaseClass:24 - **** Clicked on Register ****
+2024-12-22 22:21:23 INFO  BaseClass:26 - **** Entering Details ****
+2024-12-22 22:21:25 INFO  BaseClass:37 - **** Clicking Continue****
+2024-12-22 22:21:26 INFO  BaseClass:40 - **** Validating Error Message****
+2024-12-22 22:21:26 INFO  BaseClass:43 - ---- TC_001_AccountRegistrationTest Passed ----
+2024-12-22 22:21:26 INFO  BaseClass:54 - **** Finished TC_001_AccountRegistrationTest ****
+2024-12-22 22:21:29 INFO  BaseClass:17 - **** Starting TC_002_LoginTest ****
+2024-12-22 22:21:29 INFO  BaseClass:22 - **** Clicked on My Account ****
+2024-12-22 22:21:29 INFO  BaseClass:24 - **** Clicked on Login ****
+2024-12-22 22:21:30 INFO  BaseClass:27 - **** Entering login details ****
+2024-12-22 22:21:30 INFO  BaseClass:30 - **** Clicking login ****
+2024-12-22 22:21:31 INFO  BaseClass:33 - **** Verifying the login message ****
+2024-12-22 22:21:31 INFO  BaseClass:36 - **** TC_002_LoginTest Passed ****
+2024-12-22 22:21:31 INFO  BaseClass:46 - **** Finished TC_002_LoginTest ****
+2024-12-22 22:21:35 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 22:21:35 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 22:21:35 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 22:21:36 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 22:21:37 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 22:21:47 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 22:21:47 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 22:21:48 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 22:21:48 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 22:21:48 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 22:21:49 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 22:21:50 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 22:22:00 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 22:22:00 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 22:22:01 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 22:22:01 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 22:22:01 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 22:22:01 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 22:22:03 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 22:22:03 INFO  BaseClass:37 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 22:22:03 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****
+2024-12-22 22:22:04 INFO  BaseClass:16 - **** Starting TC_003_LoginDDT  ****
+2024-12-22 22:22:04 INFO  BaseClass:20 - **** Clicking My Account  ****
+2024-12-22 22:22:04 INFO  BaseClass:22 - **** Clicking Login  ****
+2024-12-22 22:22:05 INFO  BaseClass:25 - **** Entering login details ****
+2024-12-22 22:22:06 INFO  BaseClass:31 - **** verifying login message ****
+2024-12-22 22:22:16 INFO  BaseClass:50 - ****  TC_003_LoginDDT Passed ****
+2024-12-22 22:22:16 INFO  BaseClass:59 - **** Finished TC_003_LoginDDT  ****

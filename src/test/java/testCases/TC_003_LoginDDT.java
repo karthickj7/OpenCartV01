@@ -11,7 +11,7 @@ import utilities.DataProviders;
 
 public class TC_003_LoginDDT extends BaseClass {
 
-	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class)
+	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class, groups= {"DataDriven"})
 	public void verify_loginDDT(String email, String password, String status, String result) throws InterruptedException {
 		logger.info("**** Starting TC_003_LoginDDT  ****");
 		try {
@@ -29,23 +29,23 @@ public class TC_003_LoginDDT extends BaseClass {
 			login.clickLogin();
 
 			logger.info("**** verifying login message ****");
-			MyAccountPage macc = new MyAccountPage(driver);
-			boolean isPassed = macc.getHeaderMessage();
+			MyAccountPage myAccount = new MyAccountPage(driver);
+			boolean isPassed = myAccount.getHeaderMessage();
 
 			if (status.equalsIgnoreCase("valid")) {
 				if (isPassed) {
 					logger.info("****  TC_003_LoginDDT Passed ****");
-					macc.clickLogout();
+					myAccount.clickLogout();
 					Assert.assertTrue(true);		
 				} else {
 					logger.info("****  TC_003_LoginDDT Failed ****");
-					Assert.assertTrue(false);
+					Assert.fail();
 				}
 			} else if (status.equalsIgnoreCase("invalid")) {
 				if (isPassed) {
 					logger.info("****  TC_003_LoginDDT Failed ****");
-					macc.clickLogout();
-					Assert.assertTrue(false);
+					myAccount.clickLogout();
+					Assert.fail();
 				} else {
 					logger.info("****  TC_003_LoginDDT Passed ****");
 					Assert.assertTrue(true);

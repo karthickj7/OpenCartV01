@@ -21,7 +21,7 @@ public class BaseClass {
 	public Properties prop;
 	public Logger logger;
 
-	@BeforeClass
+	@BeforeClass(groups= {"Master","Sanity","DataDriven"})
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String browserName) throws Exception {
 
@@ -51,23 +51,20 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
-	@AfterClass
+	@AfterClass(groups= {"Master","Sanity","DataDriven"})
 	public void tearDown() {
 		driver.quit();
 	}
 
 	public String randomString() {
-		String generatedString = RandomStringUtils.randomAlphabetic(5);
-		return generatedString;
+        return RandomStringUtils.randomAlphabetic(5);
 	}
 
 	public String randomNumber() {
-		String generatedString = RandomStringUtils.randomNumeric(10);
-		return generatedString;
+        return RandomStringUtils.randomNumeric(10);
 	}
 
 	public String randomAlphaNumeric() {
-		String generatedString = RandomStringUtils.randomAlphanumeric(6);
-		return generatedString;
+        return RandomStringUtils.randomAlphanumeric(6);
 	}
 }
