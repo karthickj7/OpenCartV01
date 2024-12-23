@@ -22,7 +22,6 @@ public class MyAccountPage extends BasePage{
 		} catch (Exception e){
 			return false;
 		}
-		
 	}
 	
 	public void clickLogout() {

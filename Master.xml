@@ -6,11 +6,11 @@
     </listeners>
     <test name="Chrome Test">
         <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="testCases.TC_001_AccountRegistrationTest"/>
-            <class name="testCases.TC_002_LoginTest"/>
+            <!--            <class name="testCases.TC_002_LoginTest"/>-->
             <class name="testCases.TC_003_LoginDDT"/>
-            <parameter name="browser" value="chrome"/>
         </classes>
     </test>
 </suite> 

@@ -3,7 +3,7 @@
 <suite name="ParallelTesting" thread-count="5" parallel="tests">
 	<test name="Chrome Test">
 		<parameter name="os" value="windows" />
-		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="browser" value="chrome"/>
 		<classes>
 			<class name="testCases.TC_001_AccountRegistrationTest" />
 			<class name="testCases.TC_002_LoginTest" />
@@ -12,7 +12,7 @@
 
 	<test name="Firefox Test">
 		<parameter name="os" value="windows" />
-		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="browser" value="firefox"/>
 		<classes>
 			<class name="testCases.TC_001_AccountRegistrationTest" />
 			<class name="testCases.TC_002_LoginTest" />

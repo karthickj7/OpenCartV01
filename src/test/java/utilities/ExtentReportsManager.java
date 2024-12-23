@@ -5,9 +5,11 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import testBase.BaseClass;
 
 import java.awt.*;
 import java.io.File;
@@ -64,7 +66,14 @@ public class ExtentReportsManager implements ITestListener {
         test = report.createTest(result.getTestClass().getName());
         test.assignCategory(result.getMethod().getGroups());
         test.log(Status.FAIL, result.getName() + " got failed");
-        test.log(Status.FAIL, result.getThrowable().getMessage());
+        test.log(Status.INFO, result.getThrowable().getMessage());
+
+        try{
+            String fileName = new BaseClass().captureScreen(result.getName());
+            test.addScreenCaptureFromPath(fileName);
+        }catch (Exception ignored){
+            ignored.printStackTrace();
+        }
     }
 
     public void onTestSkipped(ITestResult result) {

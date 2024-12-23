@@ -3,7 +3,7 @@
 <suite name="multiBrowsers">
 	<test name="Chrome Test">
 		<parameter name="os" value="windows" />
-		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="browser" value="chrome"/>
 		<classes>
 			<class name="testCases.TC_001_AccountRegistrationTest" />
 		</classes>
@@ -11,7 +11,7 @@
 	
 	<test name="Firefox Test">
 		<parameter name="os" value="windows" />
-		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="browser" value="firefox"/>
 		<classes>
 			<class name="testCases.TC_001_AccountRegistrationTest" />
 		</classes>
